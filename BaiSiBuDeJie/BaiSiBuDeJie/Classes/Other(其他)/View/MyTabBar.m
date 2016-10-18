@@ -47,6 +47,7 @@
             i ++;
         }
     }
+    //设置中间发布按钮的位置
     self.plusButton.center = CGPointMake(self.yf_centerX, self.yf_height * 0.5);
 }
 

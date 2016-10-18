@@ -38,8 +38,6 @@
     [self addChildViewControllerWithController:essenceVC title:@"精华" imageName:@"tabBar_essence_icon" seletcedImage:@"tabBar_essence_click_icon"];
     NewViewController * newVC = [[NewViewController alloc] init];
     [self addChildViewControllerWithController:newVC title:@"新帖" imageName:@"tabBar_new_icon" seletcedImage:@"tabBar_new_click_icon"];
-//    PublishViewController * publishVC = [[PublishViewController alloc] init];
-//    [self addChildViewControllerWithController:publishVC title:@"" imageName:@"tabBar_publish_icon" seletcedImage:@"tabBar_publish_click_icon"];
     FriendTrendViewController * friendTrendVC = [[FriendTrendViewController alloc] init];
     [self addChildViewControllerWithController:friendTrendVC title:@"关注" imageName:@"tabBar_friendTrends_icon" seletcedImage:@"tabBar_friendTrends_click_icon"];
     MeViewController * meVC = [[MeViewController alloc] init];
