@@ -16,22 +16,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
+    [self setNavigation];
+}
+#pragma mark -- 设置导航栏
+- (void)setNavigation
+{
+    //左侧
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem setNavigationItemWithNormalImage:[UIImage imageNamed:@"nav_item_game_icon"] highlighted:[UIImage imageNamed:@"nav_item_game_click_icon"] target:self action:@selector(gameAction)];
+    //右侧
+    self.navigationItem.rightBarButtonItem = [UIBarButtonItem setNavigationItemWithNormalImage:[UIImage imageNamed:@"navigationButtonRandom"] highlighted:[UIImage imageNamed:@"navigationButtonRandomClick"] target:self action:@selector(randomAction)];
+    //标题
+    self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MainTitle"]];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark -- 监听导航栏方法
+- (void)gameAction
+{
+    YFLog(@"game");
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)randomAction{
+    YFLog(@"random");
 }
-*/
-
 @end

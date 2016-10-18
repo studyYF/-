@@ -16,22 +16,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self setNavigation];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark -- 设置导航栏
+- (void)setNavigation
+{
+    //左侧
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem setNavigationItemWithNormalImage:[UIImage imageNamed:@"friendsRecommentIcon"] highlighted:[UIImage imageNamed:@"friendsRecommentIcon-click"] target:self action:@selector(friendsRecommentAction)];
+    //标题
+    self.navigationItem.title = @"我的关注";
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark -- 按钮点击方法
+- (void)friendsRecommentAction
+{
+    YFLog(@"friendsRecommentAction");
 }
-*/
 
 @end

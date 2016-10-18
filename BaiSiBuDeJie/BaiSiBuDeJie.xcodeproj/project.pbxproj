@@ -27,6 +27,7 @@
 		B8693D7B1DB5F2A100C570FA /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8693D7A1DB5F2A100C570FA /* MyNavigationController.m */; };
 		B8693D7E1DB6042900C570FA /* MyTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B8693D7D1DB6042900C570FA /* MyTabBar.m */; };
 		B8693D821DB6089800C570FA /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = B8693D811DB6089800C570FA /* UIView+Size.m */; };
+		B8693D861DB6560500C570FA /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = B8693D851DB6560500C570FA /* UIBarButtonItem+Item.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,8 @@
 		B8693D801DB6089800C570FA /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
 		B8693D811DB6089800C570FA /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
 		B8693D831DB60B0E00C570FA /* BaiSiBuDeJie.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaiSiBuDeJie.pch; sourceTree = "<group>"; };
+		B8693D841DB6560500C570FA /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
+		B8693D851DB6560500C570FA /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
 		CC88712036D496DC49B7CCAF /* Pods-BaiSiBuDeJie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJie/Pods-BaiSiBuDeJie.debug.xcconfig"; sourceTree = "<group>"; };
 		FDF4A177DDEBE12F9A321085 /* Pods-BaiSiBuDeJie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJie.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJie/Pods-BaiSiBuDeJie.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -519,6 +522,8 @@
 			children = (
 				B8693D801DB6089800C570FA /* UIView+Size.h */,
 				B8693D811DB6089800C570FA /* UIView+Size.m */,
+				B8693D841DB6560500C570FA /* UIBarButtonItem+Item.h */,
+				B8693D851DB6560500C570FA /* UIBarButtonItem+Item.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -791,6 +796,7 @@
 				B8693D781DB5F28D00C570FA /* MyTabBarController.m in Sources */,
 				B8693D6F1DB5F25700C570FA /* MeViewController.m in Sources */,
 				B8693D181DB5E58100C570FA /* ViewController.m in Sources */,
+				B8693D861DB6560500C570FA /* UIBarButtonItem+Item.m in Sources */,
 				B8693D151DB5E58100C570FA /* AppDelegate.m in Sources */,
 				B8693D121DB5E58100C570FA /* main.m in Sources */,
 				B8693D691DB5F23B00C570FA /* EssenceViewController.m in Sources */,
