@@ -35,5 +35,20 @@
     return item;
 }
 
++ (UIBarButtonItem *)setBackNavigationItemWithTarget:(id)target action:(SEL)action
+{
+    UIButton * backButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [backButton setImage:[UIImage imageNamed:@"navigationButtonReturn"] forState:UIControlStateNormal];
+    [backButton setImage:[UIImage imageNamed:@"navigationButtonReturnClick"] forState:UIControlStateHighlighted];
+    [backButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [backButton setTitleColor:[UIColor redColor] forState:UIControlStateHighlighted];
+    backButton.contentEdgeInsets = UIEdgeInsetsMake(0, -10, 0, 0);
+    [backButton addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
+    [backButton setTitle:@"返回" forState:UIControlStateNormal];
+    [backButton sizeToFit];
+    return [[UIBarButtonItem alloc] initWithCustomView:backButton];
+}
+
+
 
 @end

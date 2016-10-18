@@ -7,6 +7,7 @@
 //
 
 #import "MeViewController.h"
+#import "SettingViewController.h"
 
 @interface MeViewController ()
 
@@ -33,7 +34,8 @@
 #pragma mark -- 按钮点击方法
 - (void)settingAction
 {
-    YFLog(@"friendsRecommentAction");
+    SettingViewController * vc = [[SettingViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)nightStyleAction:(UIButton *)nightButton

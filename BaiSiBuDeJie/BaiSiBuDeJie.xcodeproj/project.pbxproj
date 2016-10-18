@@ -28,6 +28,7 @@
 		B8693D7E1DB6042900C570FA /* MyTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B8693D7D1DB6042900C570FA /* MyTabBar.m */; };
 		B8693D821DB6089800C570FA /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = B8693D811DB6089800C570FA /* UIView+Size.m */; };
 		B8693D861DB6560500C570FA /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = B8693D851DB6560500C570FA /* UIBarButtonItem+Item.m */; };
+		B8693D8E1DB6787A00C570FA /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8693D8D1DB6787A00C570FA /* SettingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,8 @@
 		B8693D831DB60B0E00C570FA /* BaiSiBuDeJie.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaiSiBuDeJie.pch; sourceTree = "<group>"; };
 		B8693D841DB6560500C570FA /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
 		B8693D851DB6560500C570FA /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
+		B8693D8C1DB6787A00C570FA /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		B8693D8D1DB6787A00C570FA /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		CC88712036D496DC49B7CCAF /* Pods-BaiSiBuDeJie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJie/Pods-BaiSiBuDeJie.debug.xcconfig"; sourceTree = "<group>"; };
 		FDF4A177DDEBE12F9A321085 /* Pods-BaiSiBuDeJie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJie.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJie/Pods-BaiSiBuDeJie.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -219,6 +222,7 @@
 				B8693D491DB5F1F300C570FA /* FriendTrend(关注) */,
 				B8693D4E1DB5F1F300C570FA /* Me(我) */,
 				B8693D531DB5F1F300C570FA /* New(新帖) */,
+				B8693D871DB6785200C570FA /* Setting(设置) */,
 				B8693D581DB5F1F300C570FA /* Other(其他) */,
 				B8693D5D1DB5F1F300C570FA /* Publish(发布) */,
 				B8693D621DB5F1F300C570FA /* ThirdPart(第三方) */,
@@ -528,6 +532,47 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		B8693D871DB6785200C570FA /* Setting(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				B8693D8C1DB6787A00C570FA /* SettingViewController.h */,
+				B8693D8D1DB6787A00C570FA /* SettingViewController.m */,
+				B8693D881DB6785200C570FA /* Controller */,
+				B8693D891DB6785200C570FA /* Model */,
+				B8693D8A1DB6785200C570FA /* Other */,
+				B8693D8B1DB6785200C570FA /* View */,
+			);
+			path = "Setting(设置)";
+			sourceTree = "<group>";
+		};
+		B8693D881DB6785200C570FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B8693D891DB6785200C570FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B8693D8A1DB6785200C570FA /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		B8693D8B1DB6785200C570FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -792,6 +837,7 @@
 				B8693D7E1DB6042900C570FA /* MyTabBar.m in Sources */,
 				B8693D751DB5F26F00C570FA /* PublishViewController.m in Sources */,
 				B8693D721DB5F26100C570FA /* NewViewController.m in Sources */,
+				B8693D8E1DB6787A00C570FA /* SettingViewController.m in Sources */,
 				B8693D821DB6089800C570FA /* UIView+Size.m in Sources */,
 				B8693D781DB5F28D00C570FA /* MyTabBarController.m in Sources */,
 				B8693D6F1DB5F25700C570FA /* MeViewController.m in Sources */,
