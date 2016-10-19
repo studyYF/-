@@ -7,6 +7,7 @@
 //
 
 #import "NewViewController.h"
+#import "SubTagViewController.h"
 
 @interface NewViewController ()
 
@@ -31,6 +32,7 @@
 #pragma mark -- 按钮点击方法
 - (void)subIconAction
 {
-    YFLog(@"subIcon");
+    SubTagViewController * vc = [[SubTagViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 @end

@@ -7,6 +7,22 @@
 //
 #import "UIView+Size.h"
 #import "UIBarButtonItem+Item.h"
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#import "MJExtension.h"
+#import "MJRefresh.h"
+#import "NotificationAndConstant.h"
+#import "HTTPRequestTool.h"
+
+
+#define yfWidth [UIScreen mainScreen].bounds.size.width
+
+#define yfHeight [UIScreen mainScreen].bounds.size.height
+
+#define iPhone6P (yfHeight == 736)
+#define iPhone6   (yfHeight == 667)
+#define iPhone5   (yfHeight == 568)
+#define iPhone4   (yfHeight == 480)
 
 #ifdef DEBUG
 #define YFLog(...) NSLog(__VA_ARGS__)
