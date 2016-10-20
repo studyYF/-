@@ -45,6 +45,7 @@
 		B88742AA1DB7344300C84D4F /* LaunchImage-800-Portrait-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B88742A31DB7344300C84D4F /* LaunchImage-800-Portrait-736h@3x.png */; };
 		B88742AB1DB7344300C84D4F /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = B88742A41DB7344300C84D4F /* LaunchImage.png */; };
 		B88742AC1DB7344300C84D4F /* LaunchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B88742A51DB7344300C84D4F /* LaunchImage@2x.png */; };
+		B8C364DC1DB8681C0018A472 /* FriendTrendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8C364DB1DB8681C0018A472 /* FriendTrendViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +135,7 @@
 		B88742A31DB7344300C84D4F /* LaunchImage-800-Portrait-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-Portrait-736h@3x.png"; sourceTree = "<group>"; };
 		B88742A41DB7344300C84D4F /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
 		B88742A51DB7344300C84D4F /* LaunchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage@2x.png"; sourceTree = "<group>"; };
+		B8C364DB1DB8681C0018A472 /* FriendTrendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendTrendViewController.xib; sourceTree = "<group>"; };
 		CC88712036D496DC49B7CCAF /* Pods-BaiSiBuDeJie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJie/Pods-BaiSiBuDeJie.debug.xcconfig"; sourceTree = "<group>"; };
 		FDF4A177DDEBE12F9A321085 /* Pods-BaiSiBuDeJie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJie.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJie/Pods-BaiSiBuDeJie.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -317,6 +319,7 @@
 			children = (
 				B8693D6A1DB5F24B00C570FA /* FriendTrendViewController.h */,
 				B8693D6B1DB5F24B00C570FA /* FriendTrendViewController.m */,
+				B8C364DB1DB8681C0018A472 /* FriendTrendViewController.xib */,
 				B8693D4A1DB5F1F300C570FA /* Controller */,
 				B8693D4B1DB5F1F300C570FA /* Model */,
 				B8693D4C1DB5F1F300C570FA /* Other */,
@@ -794,6 +797,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8C364DC1DB8681C0018A472 /* FriendTrendViewController.xib in Resources */,
 				B870306C1DB7C3990018D6E5 /* SubTagCell.xib in Resources */,
 				B8693D201DB5E58100C570FA /* LaunchScreen.storyboard in Resources */,
 				B88742AA1DB7344300C84D4F /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
