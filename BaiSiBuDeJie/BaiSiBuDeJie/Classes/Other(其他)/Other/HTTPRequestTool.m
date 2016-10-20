@@ -60,5 +60,19 @@
     }];
 }
 
+- (void)loadMeFooterData:(CompletionBlock)completion
+{
+    NSMutableDictionary * param = [NSMutableDictionary dictionary];
+    param[@"a"] = @"square";
+    param[@"c"] = @"topic";
+    [self requestWithMethod:HTTPMethodGET param:param urlString:meFooterURL completion:^(id result, NSError *error) {
+        if (error == nil) {
+            completion(result,nil);
+        }
+        else {
+            completion(nil,error);
+        }
+    }];
+}
 
 @end

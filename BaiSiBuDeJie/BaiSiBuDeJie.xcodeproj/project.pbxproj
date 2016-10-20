@@ -55,6 +55,13 @@
 		B8C364F31DB8B53F0018A472 /* FastLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C364F21DB8B53F0018A472 /* FastLoginButton.m */; };
 		B8C364F61DB8C2FC0018A472 /* UITextField+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C364F51DB8C2FC0018A472 /* UITextField+Placeholder.m */; };
 		B8C364F91DB8C38F0018A472 /* LoginTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C364F81DB8C38F0018A472 /* LoginTextField.m */; };
+		B8C364FB1DB8F2900018A472 /* MeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8C364FA1DB8F2900018A472 /* MeViewController.storyboard */; };
+		B8C364FF1DB8FD870018A472 /* MeFooterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C364FD1DB8FD870018A472 /* MeFooterCell.m */; };
+		B8C365001DB8FD870018A472 /* MeFooterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8C364FE1DB8FD870018A472 /* MeFooterCell.xib */; };
+		B8C365031DB8FD990018A472 /* MeFooterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C365021DB8FD990018A472 /* MeFooterModel.m */; };
+		B8C365071DB90D440018A472 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C365051DB90D440018A472 /* WebViewController.m */; };
+		B8C365081DB90D440018A472 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8C365061DB90D440018A472 /* WebViewController.xib */; };
+		B8C3650A1DB90FD50018A472 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C365091DB90FD50018A472 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -160,6 +167,16 @@
 		B8C364F51DB8C2FC0018A472 /* UITextField+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Placeholder.m"; sourceTree = "<group>"; };
 		B8C364F71DB8C38F0018A472 /* LoginTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginTextField.h; sourceTree = "<group>"; };
 		B8C364F81DB8C38F0018A472 /* LoginTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginTextField.m; sourceTree = "<group>"; };
+		B8C364FA1DB8F2900018A472 /* MeViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MeViewController.storyboard; sourceTree = "<group>"; };
+		B8C364FC1DB8FD870018A472 /* MeFooterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeFooterCell.h; sourceTree = "<group>"; };
+		B8C364FD1DB8FD870018A472 /* MeFooterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeFooterCell.m; sourceTree = "<group>"; };
+		B8C364FE1DB8FD870018A472 /* MeFooterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeFooterCell.xib; sourceTree = "<group>"; };
+		B8C365011DB8FD990018A472 /* MeFooterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeFooterModel.h; sourceTree = "<group>"; };
+		B8C365021DB8FD990018A472 /* MeFooterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeFooterModel.m; sourceTree = "<group>"; };
+		B8C365041DB90D440018A472 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		B8C365051DB90D440018A472 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		B8C365061DB90D440018A472 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		B8C365091DB90FD50018A472 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		CC88712036D496DC49B7CCAF /* Pods-BaiSiBuDeJie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJie/Pods-BaiSiBuDeJie.debug.xcconfig"; sourceTree = "<group>"; };
 		FDF4A177DDEBE12F9A321085 /* Pods-BaiSiBuDeJie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJie.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJie/Pods-BaiSiBuDeJie.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -169,6 +186,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8C3650A1DB90FD50018A472 /* WebKit.framework in Frameworks */,
 				3A8F07EA5CF02BAF3774719B /* libPods-BaiSiBuDeJie.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,6 +226,7 @@
 		A3FB8D670D135EAED5983533 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B8C365091DB90FD50018A472 /* WebKit.framework */,
 				9FE6BCD6790A95E540B87982 /* libPods-BaiSiBuDeJie.a */,
 				3263720515D60F6FA34FFA37 /* libPods-BaiSiBuDeJieTests.a */,
 				875112666793A6C47053A7BB /* libPods-BaiSiBuDeJieUITests.a */,
@@ -287,12 +306,12 @@
 				B8C364DD1DB87E730018A472 /* LoginRegister(登录注册) */,
 				B88742941DB724BB00C84D4F /* AD(广告) */,
 				B8693D441DB5F1F300C570FA /* Essence(精华) */,
+				B8693D531DB5F1F300C570FA /* New(新帖) */,
+				B8693D5D1DB5F1F300C570FA /* Publish(发布) */,
 				B8693D491DB5F1F300C570FA /* FriendTrend(关注) */,
 				B8693D4E1DB5F1F300C570FA /* Me(我) */,
-				B8693D531DB5F1F300C570FA /* New(新帖) */,
 				B8693D871DB6785200C570FA /* Setting(设置) */,
 				B8693D581DB5F1F300C570FA /* Other(其他) */,
-				B8693D5D1DB5F1F300C570FA /* Publish(发布) */,
 				B8693D621DB5F1F300C570FA /* ThirdPart(第三方) */,
 			);
 			path = Classes;
@@ -386,6 +405,10 @@
 			children = (
 				B8693D6D1DB5F25700C570FA /* MeViewController.h */,
 				B8693D6E1DB5F25700C570FA /* MeViewController.m */,
+				B8C364FA1DB8F2900018A472 /* MeViewController.storyboard */,
+				B8C365041DB90D440018A472 /* WebViewController.h */,
+				B8C365051DB90D440018A472 /* WebViewController.m */,
+				B8C365061DB90D440018A472 /* WebViewController.xib */,
 				B8693D4F1DB5F1F300C570FA /* Controller */,
 				B8693D501DB5F1F300C570FA /* Model */,
 				B8693D511DB5F1F300C570FA /* Other */,
@@ -404,6 +427,8 @@
 		B8693D501DB5F1F300C570FA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B8C365011DB8FD990018A472 /* MeFooterModel.h */,
+				B8C365021DB8FD990018A472 /* MeFooterModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -418,6 +443,9 @@
 		B8693D521DB5F1F300C570FA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B8C364FC1DB8FD870018A472 /* MeFooterCell.h */,
+				B8C364FD1DB8FD870018A472 /* MeFooterCell.m */,
+				B8C364FE1DB8FD870018A472 /* MeFooterCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -880,6 +908,7 @@
 				B8C364E61DB8834B0018A472 /* LoginRegisterViewController.xib in Resources */,
 				B870306C1DB7C3990018D6E5 /* SubTagCell.xib in Resources */,
 				B8693D201DB5E58100C570FA /* LaunchScreen.storyboard in Resources */,
+				B8C365001DB8FD870018A472 /* MeFooterCell.xib in Resources */,
 				B8C364F01DB8B2500018A472 /* FastLoginView.xib in Resources */,
 				B88742AA1DB7344300C84D4F /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
 				B887429D1DB725D900C84D4F /* AdViewController.xib in Resources */,
@@ -888,9 +917,11 @@
 				B88742A91DB7344300C84D4F /* LaunchImage-800-667h@2x.png in Resources */,
 				B88742A61DB7344300C84D4F /* LaunchImage-568h@2x.png in Resources */,
 				B88742AB1DB7344300C84D4F /* LaunchImage.png in Resources */,
+				B8C365081DB90D440018A472 /* WebViewController.xib in Resources */,
 				B8693D1D1DB5E58100C570FA /* Assets.xcassets in Resources */,
 				B8C364EB1DB898570018A472 /* LoginRegisterView.xib in Resources */,
 				B88742A81DB7344300C84D4F /* LaunchImage-700@2x.png in Resources */,
+				B8C364FB1DB8F2900018A472 /* MeViewController.storyboard in Resources */,
 				B8693D1B1DB5E58100C570FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1040,13 +1071,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8693D7E1DB6042900C570FA /* MyTabBar.m in Sources */,
+				B8C365071DB90D440018A472 /* WebViewController.m in Sources */,
 				B8693D751DB5F26F00C570FA /* PublishViewController.m in Sources */,
+				B8C364FF1DB8FD870018A472 /* MeFooterCell.m in Sources */,
 				B8693D721DB5F26100C570FA /* NewViewController.m in Sources */,
 				B887429B1DB725AD00C84D4F /* AdViewController.m in Sources */,
 				B8693D8E1DB6787A00C570FA /* SettingViewController.m in Sources */,
 				B8C364F61DB8C2FC0018A472 /* UITextField+Placeholder.m in Sources */,
 				B8693D821DB6089800C570FA /* UIView+Size.m in Sources */,
 				B8091B0B1DB7B4E8007839CD /* SubTagViewController.m in Sources */,
+				B8C365031DB8FD990018A472 /* MeFooterModel.m in Sources */,
 				B87030671DB7C1C90018D6E5 /* SubTagModel.m in Sources */,
 				B8693D781DB5F28D00C570FA /* MyTabBarController.m in Sources */,
 				B8693D6F1DB5F25700C570FA /* MeViewController.m in Sources */,

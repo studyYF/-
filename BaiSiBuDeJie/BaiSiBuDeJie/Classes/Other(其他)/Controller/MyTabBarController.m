@@ -40,7 +40,8 @@
     [self addChildViewControllerWithController:newVC title:@"新帖" imageName:@"tabBar_new_icon" seletcedImage:@"tabBar_new_click_icon"];
     FriendTrendViewController * friendTrendVC = [[FriendTrendViewController alloc] init];
     [self addChildViewControllerWithController:friendTrendVC title:@"关注" imageName:@"tabBar_friendTrends_icon" seletcedImage:@"tabBar_friendTrends_click_icon"];
-    MeViewController * meVC = [[MeViewController alloc] init];
+    UIStoryboard * storyboard = [UIStoryboard storyboardWithName:@"MeViewController" bundle:nil];
+    MeViewController * meVC = [storyboard instantiateViewControllerWithIdentifier:@"MeViewController"];
     [self addChildViewControllerWithController:meVC title:@"我的" imageName:@"tabBar_me_icon" seletcedImage:@"tabBar_me_click_icon"];
     MyTabBar * tabBar = [[MyTabBar alloc] init];
     [self setValue:tabBar forKey:@"tabBar"];

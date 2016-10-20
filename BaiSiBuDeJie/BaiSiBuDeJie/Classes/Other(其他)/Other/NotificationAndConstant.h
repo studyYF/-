@@ -11,6 +11,7 @@
  *  订阅列表地址
  */
 static NSString * const subTagURL = @"http://api.budejie.com/api/api_open.php";
+static NSString * const meFooterURL = @"http://api.budejie.com/api/api_open.php";
 
 @interface NotificationAndConstant : NSObject
 

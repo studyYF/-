@@ -34,5 +34,9 @@ typedef void (^CompletionBlock)(id result, NSError * error);
  *  加载推荐订阅
  */
 - (void)loadSubTag:(CompletionBlock)completion;
+/**
+ *  加载我的页面尾视图数据
+ */
+- (void)loadMeFooterData:(CompletionBlock)completion;
 
 @end
