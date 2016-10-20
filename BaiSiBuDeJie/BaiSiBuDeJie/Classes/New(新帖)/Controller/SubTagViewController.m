@@ -29,7 +29,9 @@
 
 - (void)uiConfig
 {
+    self.title = @"推荐标签";
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    self.tableView.backgroundColor = [UIColor colorWithRed:0.81f green:0.81f blue:0.81f alpha:1.00f];
     [self.tableView registerNib:[UINib nibWithNibName:@"SubTagCell" bundle:nil] forCellReuseIdentifier:@"SubTagCell"];
 }
 
