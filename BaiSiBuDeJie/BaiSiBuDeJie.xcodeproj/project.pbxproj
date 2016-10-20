@@ -46,6 +46,15 @@
 		B88742AB1DB7344300C84D4F /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = B88742A41DB7344300C84D4F /* LaunchImage.png */; };
 		B88742AC1DB7344300C84D4F /* LaunchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B88742A51DB7344300C84D4F /* LaunchImage@2x.png */; };
 		B8C364DC1DB8681C0018A472 /* FriendTrendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8C364DB1DB8681C0018A472 /* FriendTrendViewController.xib */; };
+		B8C364E41DB87EF80018A472 /* LoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C364E31DB87EF80018A472 /* LoginRegisterViewController.m */; };
+		B8C364E61DB8834B0018A472 /* LoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8C364E51DB8834B0018A472 /* LoginRegisterViewController.xib */; };
+		B8C364E91DB8983F0018A472 /* LoginRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C364E81DB8983F0018A472 /* LoginRegisterView.m */; };
+		B8C364EB1DB898570018A472 /* LoginRegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8C364EA1DB898570018A472 /* LoginRegisterView.xib */; };
+		B8C364EE1DB8B23D0018A472 /* FastLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C364ED1DB8B23D0018A472 /* FastLoginView.m */; };
+		B8C364F01DB8B2500018A472 /* FastLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8C364EF1DB8B2500018A472 /* FastLoginView.xib */; };
+		B8C364F31DB8B53F0018A472 /* FastLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C364F21DB8B53F0018A472 /* FastLoginButton.m */; };
+		B8C364F61DB8C2FC0018A472 /* UITextField+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C364F51DB8C2FC0018A472 /* UITextField+Placeholder.m */; };
+		B8C364F91DB8C38F0018A472 /* LoginTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C364F81DB8C38F0018A472 /* LoginTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +145,21 @@
 		B88742A41DB7344300C84D4F /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
 		B88742A51DB7344300C84D4F /* LaunchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage@2x.png"; sourceTree = "<group>"; };
 		B8C364DB1DB8681C0018A472 /* FriendTrendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendTrendViewController.xib; sourceTree = "<group>"; };
+		B8C364E21DB87EF80018A472 /* LoginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginRegisterViewController.h; sourceTree = "<group>"; };
+		B8C364E31DB87EF80018A472 /* LoginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginRegisterViewController.m; sourceTree = "<group>"; };
+		B8C364E51DB8834B0018A472 /* LoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginRegisterViewController.xib; sourceTree = "<group>"; };
+		B8C364E71DB8983F0018A472 /* LoginRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginRegisterView.h; sourceTree = "<group>"; };
+		B8C364E81DB8983F0018A472 /* LoginRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginRegisterView.m; sourceTree = "<group>"; };
+		B8C364EA1DB898570018A472 /* LoginRegisterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginRegisterView.xib; sourceTree = "<group>"; };
+		B8C364EC1DB8B23D0018A472 /* FastLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastLoginView.h; sourceTree = "<group>"; };
+		B8C364ED1DB8B23D0018A472 /* FastLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastLoginView.m; sourceTree = "<group>"; };
+		B8C364EF1DB8B2500018A472 /* FastLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FastLoginView.xib; sourceTree = "<group>"; };
+		B8C364F11DB8B53F0018A472 /* FastLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastLoginButton.h; sourceTree = "<group>"; };
+		B8C364F21DB8B53F0018A472 /* FastLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastLoginButton.m; sourceTree = "<group>"; };
+		B8C364F41DB8C2FC0018A472 /* UITextField+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Placeholder.h"; sourceTree = "<group>"; };
+		B8C364F51DB8C2FC0018A472 /* UITextField+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Placeholder.m"; sourceTree = "<group>"; };
+		B8C364F71DB8C38F0018A472 /* LoginTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginTextField.h; sourceTree = "<group>"; };
+		B8C364F81DB8C38F0018A472 /* LoginTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginTextField.m; sourceTree = "<group>"; };
 		CC88712036D496DC49B7CCAF /* Pods-BaiSiBuDeJie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJie/Pods-BaiSiBuDeJie.debug.xcconfig"; sourceTree = "<group>"; };
 		FDF4A177DDEBE12F9A321085 /* Pods-BaiSiBuDeJie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJie.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJie/Pods-BaiSiBuDeJie.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -260,6 +284,7 @@
 		B8693D431DB5F1F300C570FA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B8C364DD1DB87E730018A472 /* LoginRegister(登录注册) */,
 				B88742941DB724BB00C84D4F /* AD(广告) */,
 				B8693D441DB5F1F300C570FA /* Essence(精华) */,
 				B8693D491DB5F1F300C570FA /* FriendTrend(关注) */,
@@ -585,6 +610,8 @@
 				B8693D811DB6089800C570FA /* UIView+Size.m */,
 				B8693D841DB6560500C570FA /* UIBarButtonItem+Item.h */,
 				B8693D851DB6560500C570FA /* UIBarButtonItem+Item.m */,
+				B8C364F41DB8C2FC0018A472 /* UITextField+Placeholder.h */,
+				B8C364F51DB8C2FC0018A472 /* UITextField+Placeholder.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -684,6 +711,58 @@
 				B88742A51DB7344300C84D4F /* LaunchImage@2x.png */,
 			);
 			path = "启动图片";
+			sourceTree = "<group>";
+		};
+		B8C364DD1DB87E730018A472 /* LoginRegister(登录注册) */ = {
+			isa = PBXGroup;
+			children = (
+				B8C364DE1DB87E730018A472 /* Controller */,
+				B8C364DF1DB87E730018A472 /* Model */,
+				B8C364E01DB87E730018A472 /* Other */,
+				B8C364E11DB87E730018A472 /* View */,
+			);
+			path = "LoginRegister(登录注册)";
+			sourceTree = "<group>";
+		};
+		B8C364DE1DB87E730018A472 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B8C364E21DB87EF80018A472 /* LoginRegisterViewController.h */,
+				B8C364E31DB87EF80018A472 /* LoginRegisterViewController.m */,
+				B8C364E51DB8834B0018A472 /* LoginRegisterViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B8C364DF1DB87E730018A472 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B8C364E01DB87E730018A472 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		B8C364E11DB87E730018A472 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B8C364E71DB8983F0018A472 /* LoginRegisterView.h */,
+				B8C364E81DB8983F0018A472 /* LoginRegisterView.m */,
+				B8C364EA1DB898570018A472 /* LoginRegisterView.xib */,
+				B8C364EC1DB8B23D0018A472 /* FastLoginView.h */,
+				B8C364ED1DB8B23D0018A472 /* FastLoginView.m */,
+				B8C364EF1DB8B2500018A472 /* FastLoginView.xib */,
+				B8C364F11DB8B53F0018A472 /* FastLoginButton.h */,
+				B8C364F21DB8B53F0018A472 /* FastLoginButton.m */,
+				B8C364F71DB8C38F0018A472 /* LoginTextField.h */,
+				B8C364F81DB8C38F0018A472 /* LoginTextField.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -798,8 +877,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8C364DC1DB8681C0018A472 /* FriendTrendViewController.xib in Resources */,
+				B8C364E61DB8834B0018A472 /* LoginRegisterViewController.xib in Resources */,
 				B870306C1DB7C3990018D6E5 /* SubTagCell.xib in Resources */,
 				B8693D201DB5E58100C570FA /* LaunchScreen.storyboard in Resources */,
+				B8C364F01DB8B2500018A472 /* FastLoginView.xib in Resources */,
 				B88742AA1DB7344300C84D4F /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
 				B887429D1DB725D900C84D4F /* AdViewController.xib in Resources */,
 				B88742AC1DB7344300C84D4F /* LaunchImage@2x.png in Resources */,
@@ -808,6 +889,7 @@
 				B88742A61DB7344300C84D4F /* LaunchImage-568h@2x.png in Resources */,
 				B88742AB1DB7344300C84D4F /* LaunchImage.png in Resources */,
 				B8693D1D1DB5E58100C570FA /* Assets.xcassets in Resources */,
+				B8C364EB1DB898570018A472 /* LoginRegisterView.xib in Resources */,
 				B88742A81DB7344300C84D4F /* LaunchImage-700@2x.png in Resources */,
 				B8693D1B1DB5E58100C570FA /* Main.storyboard in Resources */,
 			);
@@ -962,20 +1044,26 @@
 				B8693D721DB5F26100C570FA /* NewViewController.m in Sources */,
 				B887429B1DB725AD00C84D4F /* AdViewController.m in Sources */,
 				B8693D8E1DB6787A00C570FA /* SettingViewController.m in Sources */,
+				B8C364F61DB8C2FC0018A472 /* UITextField+Placeholder.m in Sources */,
 				B8693D821DB6089800C570FA /* UIView+Size.m in Sources */,
 				B8091B0B1DB7B4E8007839CD /* SubTagViewController.m in Sources */,
 				B87030671DB7C1C90018D6E5 /* SubTagModel.m in Sources */,
 				B8693D781DB5F28D00C570FA /* MyTabBarController.m in Sources */,
 				B8693D6F1DB5F25700C570FA /* MeViewController.m in Sources */,
 				B8091B0E1DB7B656007839CD /* HTTPRequestTool.m in Sources */,
+				B8C364E41DB87EF80018A472 /* LoginRegisterViewController.m in Sources */,
+				B8C364EE1DB8B23D0018A472 /* FastLoginView.m in Sources */,
 				B8693D181DB5E58100C570FA /* ViewController.m in Sources */,
 				B8693D861DB6560500C570FA /* UIBarButtonItem+Item.m in Sources */,
 				B8091B111DB7B753007839CD /* NotificationAndConstant.m in Sources */,
 				B8693D151DB5E58100C570FA /* AppDelegate.m in Sources */,
 				B8693D121DB5E58100C570FA /* main.m in Sources */,
+				B8C364F31DB8B53F0018A472 /* FastLoginButton.m in Sources */,
+				B8C364E91DB8983F0018A472 /* LoginRegisterView.m in Sources */,
 				B8693D691DB5F23B00C570FA /* EssenceViewController.m in Sources */,
 				B8693D6C1DB5F24B00C570FA /* FriendTrendViewController.m in Sources */,
 				B870306B1DB7C3990018D6E5 /* SubTagCell.m in Sources */,
+				B8C364F91DB8C38F0018A472 /* LoginTextField.m in Sources */,
 				B87030641DB7C1B60018D6E5 /* BaseModel.m in Sources */,
 				B8693D7B1DB5F2A100C570FA /* MyNavigationController.m in Sources */,
 			);

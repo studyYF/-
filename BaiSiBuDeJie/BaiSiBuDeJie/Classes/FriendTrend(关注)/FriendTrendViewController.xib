@@ -25,21 +25,6 @@
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vAx-Gv-J4o">
-                    <rect key="frame" x="94" y="392" width="188" height="28"/>
-                    <animations/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="188" id="2KQ-2u-b5R"/>
-                        <constraint firstAttribute="height" constant="28" id="JnM-dS-GTw"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <state key="normal" title="立即登录注册" backgroundImage="friendsTrend_login">
-                        <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                    </state>
-                    <state key="highlighted" backgroundImage="friendsTrend_login_click">
-                        <color key="titleColor" red="0.97254901959999995" green="0.97254901959999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                    </state>
-                </button>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header_cry_icon" translatesAutoresizingMaskIntoConstraints="NO" id="tAb-DE-zUi">
                     <rect key="frame" x="164" y="229" width="48" height="48"/>
                     <animations/>
@@ -48,16 +33,34 @@
                         <constraint firstAttribute="height" constant="48" id="pfi-Vr-Uxk"/>
                     </constraints>
                 </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H8q-ri-USO">
+                    <rect key="frame" x="89" y="400" width="197" height="30"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="197" id="3ym-YC-CY2"/>
+                        <constraint firstAttribute="height" constant="30" id="fDG-J3-fMp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="立即登录注册" backgroundImage="friendsTrend_login">
+                        <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="friendsTrend_login_click">
+                        <color key="titleColor" red="0.97254901959999995" green="0.97254901959999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="loginRegisterAction:" destination="-1" eventType="touchUpInside" id="82T-He-9jt"/>
+                    </connections>
+                </button>
             </subviews>
             <animations/>
             <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstItem="vAx-Gv-J4o" firstAttribute="top" secondItem="vTh-K0-Pm2" secondAttribute="bottom" constant="31" id="9IE-8e-esD"/>
                 <constraint firstItem="vTh-K0-Pm2" firstAttribute="top" secondItem="tAb-DE-zUi" secondAttribute="bottom" constant="30" id="DWr-Wb-FVU"/>
                 <constraint firstItem="vTh-K0-Pm2" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="X2i-Pl-Qp0"/>
+                <constraint firstItem="H8q-ri-USO" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="c0T-sU-r38"/>
                 <constraint firstItem="vTh-K0-Pm2" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="f07-kn-QXY"/>
                 <constraint firstItem="tAb-DE-zUi" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="hsX-uC-MAC"/>
-                <constraint firstItem="vAx-Gv-J4o" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="tOB-QG-dy2"/>
+                <constraint firstItem="H8q-ri-USO" firstAttribute="top" secondItem="vTh-K0-Pm2" secondAttribute="bottom" constant="39" id="yjf-h3-mYW"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
             <point key="canvasLocation" x="299.5" y="191.5"/>

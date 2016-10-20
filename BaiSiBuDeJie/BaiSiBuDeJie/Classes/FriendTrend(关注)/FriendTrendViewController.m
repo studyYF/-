@@ -7,12 +7,19 @@
 //
 
 #import "FriendTrendViewController.h"
+#import "LoginRegisterViewController.h"
+
 
 @interface FriendTrendViewController ()
 
 @end
 
 @implementation FriendTrendViewController
+ 
+- (IBAction)loginRegisterAction:(id)sender {
+    LoginRegisterViewController * vc = [[LoginRegisterViewController alloc] init];
+    [self presentViewController:vc animated:YES completion:nil];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

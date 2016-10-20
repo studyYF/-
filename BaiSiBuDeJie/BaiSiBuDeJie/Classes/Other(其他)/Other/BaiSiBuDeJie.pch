@@ -13,6 +13,7 @@
 #import "MJRefresh.h"
 #import "NotificationAndConstant.h"
 #import "HTTPRequestTool.h"
+#import "UITextField+Placeholder.h"
 
 
 #define yfWidth [UIScreen mainScreen].bounds.size.width
