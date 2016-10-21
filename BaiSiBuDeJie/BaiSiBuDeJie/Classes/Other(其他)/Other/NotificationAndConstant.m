@@ -8,6 +8,28 @@
 
 #import "NotificationAndConstant.h"
 
-@implementation NotificationAndConstant
+NSString * const subTagURL = @"http://api.budejie.com/api/api_open.php";
 
-@end
+NSString * const meFooterURL = @"http://api.budejie.com/api/api_open.php";
+
+/**
+ *  导航栏高度
+ */
+CGFloat const navgationHeight = 64;
+/**
+ *  tabBar高度
+ */
+CGFloat const tabBarHeight = 49;
+/**
+ *  精华标题高度
+ */
+CGFloat essenceTiltleHeight = 35;
+
+
+
+
+
+
+
+
+

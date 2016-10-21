@@ -14,6 +14,8 @@
 #import "NotificationAndConstant.h"
 #import "HTTPRequestTool.h"
 #import "UITextField+Placeholder.h"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 
 #define yfWidth [UIScreen mainScreen].bounds.size.width
