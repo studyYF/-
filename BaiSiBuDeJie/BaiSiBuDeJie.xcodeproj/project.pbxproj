@@ -11,7 +11,6 @@
 		3A8F07EA5CF02BAF3774719B /* libPods-BaiSiBuDeJie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE6BCD6790A95E540B87982 /* libPods-BaiSiBuDeJie.a */; };
 		A57FADAB60914293439CF6EF /* libPods-BaiSiBuDeJieUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 875112666793A6C47053A7BB /* libPods-BaiSiBuDeJieUITests.a */; };
 		B8091B0B1DB7B4E8007839CD /* SubTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8091B0A1DB7B4E8007839CD /* SubTagViewController.m */; };
-		B8091B0E1DB7B656007839CD /* HTTPRequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B8091B0D1DB7B656007839CD /* HTTPRequestTool.m */; };
 		B8091B111DB7B753007839CD /* NotificationAndConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = B8091B101DB7B753007839CD /* NotificationAndConstant.m */; };
 		B8693D121DB5E58100C570FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8693D111DB5E58100C570FA /* main.m */; };
 		B8693D151DB5E58100C570FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8693D141DB5E58100C570FA /* AppDelegate.m */; };
@@ -62,6 +61,8 @@
 		B8C365071DB90D440018A472 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C365051DB90D440018A472 /* WebViewController.m */; };
 		B8C365081DB90D440018A472 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8C365061DB90D440018A472 /* WebViewController.xib */; };
 		B8C3650A1DB90FD50018A472 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C365091DB90FD50018A472 /* WebKit.framework */; };
+		B8FC3E581DB9CD1800C9C283 /* HTTPRequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FC3E571DB9CD1800C9C283 /* HTTPRequestTool.m */; };
+		B8FC3E5B1DB9CD3100C9C283 /* FileManagerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FC3E5A1DB9CD3100C9C283 /* FileManagerTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,8 +92,6 @@
 		A5B8EC20B72764F2C1710BDF /* Pods-BaiSiBuDeJieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJieUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJieUITests/Pods-BaiSiBuDeJieUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B8091B091DB7B4E8007839CD /* SubTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubTagViewController.h; sourceTree = "<group>"; };
 		B8091B0A1DB7B4E8007839CD /* SubTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubTagViewController.m; sourceTree = "<group>"; };
-		B8091B0C1DB7B656007839CD /* HTTPRequestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPRequestTool.h; sourceTree = "<group>"; };
-		B8091B0D1DB7B656007839CD /* HTTPRequestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPRequestTool.m; sourceTree = "<group>"; };
 		B8091B0F1DB7B753007839CD /* NotificationAndConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationAndConstant.h; sourceTree = "<group>"; };
 		B8091B101DB7B753007839CD /* NotificationAndConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationAndConstant.m; sourceTree = "<group>"; };
 		B8693D0D1DB5E58100C570FA /* BaiSiBuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiSiBuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -177,6 +176,10 @@
 		B8C365051DB90D440018A472 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		B8C365061DB90D440018A472 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
 		B8C365091DB90FD50018A472 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		B8FC3E561DB9CD1800C9C283 /* HTTPRequestTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPRequestTool.h; sourceTree = "<group>"; };
+		B8FC3E571DB9CD1800C9C283 /* HTTPRequestTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPRequestTool.m; sourceTree = "<group>"; };
+		B8FC3E591DB9CD3100C9C283 /* FileManagerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManagerTool.h; sourceTree = "<group>"; };
+		B8FC3E5A1DB9CD3100C9C283 /* FileManagerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManagerTool.m; sourceTree = "<group>"; };
 		CC88712036D496DC49B7CCAF /* Pods-BaiSiBuDeJie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJie/Pods-BaiSiBuDeJie.debug.xcconfig"; sourceTree = "<group>"; };
 		FDF4A177DDEBE12F9A321085 /* Pods-BaiSiBuDeJie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiSiBuDeJie.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaiSiBuDeJie/Pods-BaiSiBuDeJie.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -303,6 +306,7 @@
 		B8693D431DB5F1F300C570FA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B8FC3E551DB9CD1800C9C283 /* Tools */,
 				B8C364DD1DB87E730018A472 /* LoginRegister(登录注册) */,
 				B88742941DB724BB00C84D4F /* AD(广告) */,
 				B8693D441DB5F1F300C570FA /* Essence(精华) */,
@@ -533,8 +537,6 @@
 			isa = PBXGroup;
 			children = (
 				B8693D831DB60B0E00C570FA /* BaiSiBuDeJie.pch */,
-				B8091B0C1DB7B656007839CD /* HTTPRequestTool.h */,
-				B8091B0D1DB7B656007839CD /* HTTPRequestTool.m */,
 				B8091B0F1DB7B753007839CD /* NotificationAndConstant.h */,
 				B8091B101DB7B753007839CD /* NotificationAndConstant.m */,
 			);
@@ -791,6 +793,17 @@
 				B8C364F81DB8C38F0018A472 /* LoginTextField.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		B8FC3E551DB9CD1800C9C283 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				B8FC3E561DB9CD1800C9C283 /* HTTPRequestTool.h */,
+				B8FC3E571DB9CD1800C9C283 /* HTTPRequestTool.m */,
+				B8FC3E591DB9CD3100C9C283 /* FileManagerTool.h */,
+				B8FC3E5A1DB9CD3100C9C283 /* FileManagerTool.m */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1073,6 +1086,7 @@
 				B8693D7E1DB6042900C570FA /* MyTabBar.m in Sources */,
 				B8C365071DB90D440018A472 /* WebViewController.m in Sources */,
 				B8693D751DB5F26F00C570FA /* PublishViewController.m in Sources */,
+				B8FC3E581DB9CD1800C9C283 /* HTTPRequestTool.m in Sources */,
 				B8C364FF1DB8FD870018A472 /* MeFooterCell.m in Sources */,
 				B8693D721DB5F26100C570FA /* NewViewController.m in Sources */,
 				B887429B1DB725AD00C84D4F /* AdViewController.m in Sources */,
@@ -1084,7 +1098,6 @@
 				B87030671DB7C1C90018D6E5 /* SubTagModel.m in Sources */,
 				B8693D781DB5F28D00C570FA /* MyTabBarController.m in Sources */,
 				B8693D6F1DB5F25700C570FA /* MeViewController.m in Sources */,
-				B8091B0E1DB7B656007839CD /* HTTPRequestTool.m in Sources */,
 				B8C364E41DB87EF80018A472 /* LoginRegisterViewController.m in Sources */,
 				B8C364EE1DB8B23D0018A472 /* FastLoginView.m in Sources */,
 				B8693D181DB5E58100C570FA /* ViewController.m in Sources */,
@@ -1098,6 +1111,7 @@
 				B8693D6C1DB5F24B00C570FA /* FriendTrendViewController.m in Sources */,
 				B870306B1DB7C3990018D6E5 /* SubTagCell.m in Sources */,
 				B8C364F91DB8C38F0018A472 /* LoginTextField.m in Sources */,
+				B8FC3E5B1DB9CD3100C9C283 /* FileManagerTool.m in Sources */,
 				B87030641DB7C1B60018D6E5 /* BaseModel.m in Sources */,
 				B8693D7B1DB5F2A100C570FA /* MyNavigationController.m in Sources */,
 			);
